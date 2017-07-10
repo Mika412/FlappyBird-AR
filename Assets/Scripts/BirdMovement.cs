@@ -40,7 +40,7 @@ public class BirdMovement : MonoBehaviour {
                 if (rigidBody.velocity.y > 0) {
                     transform.localRotation = Quaternion.Euler(transform.localRotation.x, transform.localRotation.y, 0);
                 } else {
-                    float angle = Mathf.Lerp(0, -90.0f, -rigidBody.velocity.y / 2);\
+                    float angle = Mathf.Lerp(0, -90.0f, -rigidBody.velocity.y / 2);
                     transform.localRotation = Quaternion.Euler(transform.localRotation.x, transform.localRotation.y, angle);
                 }
 
