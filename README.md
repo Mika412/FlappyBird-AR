@@ -4,6 +4,7 @@ Flappy Bird clone built in Unity with Vuforia SDK. You can download the demo fro
 
 ###### First thing to do:
 -Update Vuforia SDK to the latest version.
+
 -Put your Vuforia App License Key in the "VuforiaConfiguration". You can get this key at the Vuforia License Manager.
 
 #### Video demo
